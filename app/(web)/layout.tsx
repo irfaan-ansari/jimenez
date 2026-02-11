@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: `${SITE_CONFIG.name}`,
     description:
-      "rusted foodservice distributor delivering fresh produce and essential supplies to restaurants and commercial kitchens across the Gulf Coast",
+      "Trusted foodservice distributor delivering fresh produce and essential supplies to restaurants and commercial kitchens across the Gulf Coast",
     url: SITE_CONFIG.url,
     siteName: `${SITE_CONFIG.name}`,
     locale: "en_US",

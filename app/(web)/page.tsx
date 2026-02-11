@@ -148,16 +148,18 @@ export default function Page() {
                   >
                     <Link
                       href={`/catalog?cat=${cat.title}`}
-                      className="block pb-0.5 pl-0.5"
+                      className="block pb-0.5 pl-0.5 hover:[&_img]:scale-110"
                     >
-                      <div className="rounded-[0.5rem] shadow-sm  bg-linear-to-br from-secondary via-background to-secondary  relative">
-                        <Image
-                          width={600}
-                          height={900}
-                          src={cat.image}
-                          alt={cat.image}
-                          className="relative z-2 w-full object-contain  rounded-t-[0.5rem] h-40 backdrop-blur-3xl"
-                        />
+                      <div className="rounded-[0.5rem] shadow-sm overflow-hidden bg-linear-to-br from-secondary via-background to-secondary  relative">
+                        <div className="overflow-hidden">
+                          <Image
+                            width={600}
+                            height={900}
+                            src={cat.image}
+                            alt={cat.image}
+                            className="relative z-2 w-full transition ease-out object-cover rounded-t-[0.5rem] aspect-square backdrop-blur-3xl"
+                          />
+                        </div>
                         <div className="p-6">
                           <h4 className="text-lg font-semibold">{cat.title}</h4>
                         </div>

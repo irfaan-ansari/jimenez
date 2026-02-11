@@ -40,19 +40,19 @@ const CatalogPage = async ({
           {data.map((product) => (
             <div
               key={`${product.title}-${product.item}`}
-              className="relative rounded-lg"
+              className="rounded-[0.5rem] hover:[&_img]:scale-110 bg-linear-to-br from-secondary via-background to-secondary  relative shadow-sm"
             >
-              <div className="aspect-square overflow-hidden bg-linear-to-br from-secondary via-background to-secondary rounded-[0.25rem]">
+              <div className="rounded-[0.5rem] overflow-hidden">
                 <Image
                   width={600}
                   height={900}
                   src={product.image}
                   alt={product.title}
                   loading="lazy"
-                  className="relative z-1 w-full object-contain aspect-square rounded-lg"
+                  className="relative z-1 w-full object-contain transition ease-out aspect-square rounded-lg"
                 />
               </div>
-              <div className="space-y-2 mt-4">
+              <div className="p-4 mt-auto">
                 <h3 className="font-medium text-sm lg:text-base">
                   {product.title}
                 </h3>
@@ -106,8 +106,8 @@ const CatalogPage = async ({
           <div className="mt-16 py-16 px-6 lg:px-16 bg-primary">
             <div className="space-y-8">
               <div className="space-y-4 text-center max-w-2xl mx-auto text-background">
-                <h2 className="text-4xl/tight sm:text-5xl/tight md:text-7xl/tight flex-1 font-heading font-semibold uppercase">
-                  View Full Catalog
+                <h2 className="text-4xl/tight sm:text-5xl/tight md:text-6xl/tight flex-1 font-heading font-semibold">
+                  Access Complete Catalog
                 </h2>
                 <p className=" text-lg">
                   Get access to our complete product catalog, bulk pricing, and

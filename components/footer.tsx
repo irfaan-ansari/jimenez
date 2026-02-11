@@ -70,7 +70,7 @@ export const Footer = () => {
           {/* categories */}
           <div className="col-span-9 md:col-span-2">
             <div className="space-y-6">
-              <h5 className="font-medium font-heading">Categories</h5>
+              <h5 className="font-medium font-heading uppercase">Categories</h5>
               <div className="flex flex-col gap-2">
                 {categories.map((cat) => (
                   <Link
@@ -88,7 +88,9 @@ export const Footer = () => {
           {/* coverage area */}
           <div className="col-span-9 md:col-span-2">
             <div className="space-y-6">
-              <h5 className="font-medium font-heading">Coverage Area</h5>
+              <h5 className="font-medium font-heading uppercase">
+                Coverage Area
+              </h5>
               <div className="flex flex-col gap-2">
                 {COVERAGE_LOCATIONS.slice(0, 8).map((covrage) => (
                   <span
@@ -111,7 +113,7 @@ export const Footer = () => {
           {/* menu */}
           <div className="col-span-9 md:col-span-2">
             <div className="space-y-6">
-              <h5 className="font-medium font-heading">Menu</h5>
+              <h5 className="font-medium font-heading uppercase">Menu</h5>
               <div className="flex flex-col gap-2">
                 {SITE_CONFIG.pages.map((page) => (
                   <Link

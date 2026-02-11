@@ -9,7 +9,7 @@ export const CTA = ({ className }: { className?: string }) => {
       <Container>
         <div className="space-y-8">
           <div className="space-y-4 text-center max-w-3xl mx-auto">
-            <h2 className="text-4xl/tight sm:text-5xl/tight md:text-7xl/tight flex-1 font-heading font-semibold uppercase text-primary-foreground">
+            <h2 className="text-4xl/tight sm:text-5xl/tight md:text-6xl/tight flex-1 font-heading font-semibold text-primary-foreground">
               Ready to Get Started?
             </h2>
             <p className="text-xl text-primary-foreground">
