@@ -38,7 +38,7 @@ export default function Page() {
           <div className="col-start-1 row-start-1 size-full">
             <Container className="h-full">
               <div className="relative py-20 max-w-2xl">
-                <span className="absolute -inset-40 bg-primary/10 mask-x-from-70% mask-y-from-70% backdrop-blur-md"></span>
+                {/* <span className="absolute -inset-40 bg-primary/10 mask-x-from-70% mask-y-from-70% backdrop-blur-md"></span> */}
                 <div className="flex items-start flex-col gap-8 relative text-primary-foreground">
                   <h1 className="text-5xl/tight md:text-7xl/tight font-bold uppercase font-heading">
                     {hero.title}
