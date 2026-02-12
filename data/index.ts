@@ -166,7 +166,7 @@ export const HOME_SECTIONS = {
     description:
       "Reliable delivery of fresh produce and essential foodservice products for restaurants and commercial kitchens across the GulfCoast.",
     badge: "Serving restaurants, food trucks, and commercial kitchens",
-    image: "/4.jpeg",
+    image: "/3.jpeg",
   },
   serve: [
     {
@@ -193,39 +193,39 @@ export const HOME_SECTIONS = {
   categories: [
     {
       title: "Fresh Fruits & Vegetables",
-      image: "/vegetables.avif",
+      image: "/vegetables.jpeg",
     },
     {
       title: "Dairy & Eggs",
-      image: "/dairy-eggs.avif",
+      image: "/dairy-eggs.jpeg",
     },
     {
       title: "Tortillas & Chips",
-      image: "/tortilas.avif",
+      image: "/tortilas.jpeg",
     },
     {
       title: "Canned & Dry",
-      image: "/canned-dry.avif",
+      image: "/canned-dry.jpeg",
     },
     {
       title: "Paper & Packing",
-      image: "/paper-packing.avif",
+      image: "/paper-packing.jpeg",
     },
     {
       title: "Beverages",
-      image: "/beverages.avif",
+      image: "/beverages.jpeg",
     },
     {
       title: "Cleaning Supplies",
-      image: "/cleaning-supplies.avif",
+      image: "/cleaning-supplies.jpeg",
     },
     {
       title: "Spices & Seasoning",
-      image: "/spices-seasoning.avif",
+      image: "/spices-seasoning.jpeg",
     },
     {
       title: "Specialty Products",
-      image: "/specialty-products.avif",
+      image: "/specialty-products.jpeg",
     },
   ],
   marquee: [

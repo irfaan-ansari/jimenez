@@ -69,7 +69,7 @@ const AboutPage = () => {
             </div>
             <div className="bg-secondary aspect-[1/0.8]">
               <Image
-                src="/operations.png"
+                src="/truck-wrap.jpg"
                 alt="What we do"
                 width={900}
                 height={900}

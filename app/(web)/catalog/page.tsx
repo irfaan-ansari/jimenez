@@ -42,7 +42,7 @@ const CatalogPage = async ({
               key={`${product.title}-${product.item}`}
               className="rounded-[0.5rem] hover:[&_img]:scale-110 bg-linear-to-br from-secondary via-background to-secondary  relative shadow-sm"
             >
-              <div className="rounded-[0.5rem] overflow-hidden">
+              <div className="rounded-[0.5rem] overflow-hidden relative">
                 <Image
                   width={600}
                   height={900}

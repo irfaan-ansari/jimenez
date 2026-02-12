@@ -226,7 +226,7 @@ export default function Page() {
               <Image
                 width={600}
                 height={600}
-                src="/operations.png"
+                src="/why-choose-us.jpeg"
                 alt="Event cover"
                 className="object-cover aspect-[1/0.8]"
               />
@@ -241,7 +241,7 @@ export default function Page() {
           <div className="grid grid-cols-1">
             <div className="col-start-1 row-start-1 rounded-lg overflow-hidden">
               <Image
-                src="/delivery.jpg"
+                src="/reliable-delivery.jpeg"
                 width={1600}
                 height={600}
                 alt="Truck image"
@@ -249,12 +249,13 @@ export default function Page() {
               />
             </div>
 
-            <div className="col-start-1 row-start-1 flex flex-col h-full justify-center bg-black/15 backdrop-blur-xs">
-              <div className="space-y-4 mb-8 text-center max-w-2xl mx-auto px-6">
-                <h2 className="text-4xl/tight sm:text-5xl/tight md:text-7xl/tight flex-1 font-heading font-bold uppercase text-primary-foreground">
+            <div className="col-start-1 row-start-1 flex flex-col h-full justify-center">
+              <div className="max-w-2xl px-6 py-20 h-full relative">
+                <span className="absolute inset-0 z-0 bg-linear-to-r from-black/50 backdrop-blur-sm mask-r-from-60% mask-y-from-80%"></span>
+                <h2 className="text-4xl/tight relative sm:text-5xl/tight md:text-7xl/tight flex-1 font-heading font-bold uppercase text-primary-foreground">
                   Fast & Reliable Delivery
                 </h2>
-                <p className="text-white text-lg">
+                <p className="text-white text-lg mt-4 relative">
                   We take pride in delivering our products with our own fleet of
                   trucks, operated exclusively by professional drivers. This
                   ensures the highest level of care, reliability, and efficiency
