@@ -166,7 +166,7 @@ export const HOME_SECTIONS = {
     description:
       "Reliable delivery of fresh produce and essential foodservice products for restaurants and commercial kitchens across the GulfCoast.",
     badge: "Serving restaurants, food trucks, and commercial kitchens",
-    image: "/3.jpeg",
+    image: "/hero-edited.jpg",
   },
   serve: [
     {
