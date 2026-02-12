@@ -27,6 +27,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
+      dir="ltr"
       className={`${body.variable} ${heading.variable} scroll-pt-32`}
     >
       <body className={`antialiased`}>
